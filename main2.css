@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header > img{
+  height: 30px; 
+      position: relative;
+      top: -3px;
+      left: 18px;
+}
+header > button{
+    display: inline-block;
+}
+header > div{
+    display: inline-block;
+    margin-left: 35px;
+   border:1px solid lightgray;
+}
+.searchipt{
+width: 300px;
+padding: 5px;
+border: none;
+}
+header > div > button{
+    padding: 5px;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    color: blue;
+    margin-right: 2px;
+}
+header > button{
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-color: #3079ED;
+    background-color: #4D90FE;
+    font-size: 1.2rem;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 2px;
+    color: white;
+}
+header{
+    margin: 10px;
+}
+.mainsubs{
+    display: flex;
+    border-bottom: 1px solid gray;
+
+}
+.mainsubs > li{
+    list-style: none;
+    margin: 10px;
+}
+body > p{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+main{
+    margin: 10px;
+}
+main >p > a{
+    text-decoration: none;
+}
+p{
+font-family: arial,
+sans-serif;
+}
+main > p{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.greentxt{
+    color: green;
+}
+.maintxt{
+    padding-bottom: 15px;
+    max-width: 700px;
+}
+.pagination{
+     display: flex;
+     justify-content: center;
+}
+.searchRes{
+    display: flex;
+    justify-content: center;
+}
+.searchRes > p{
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+footer > p {
+    margin: 0 auto;
+}
