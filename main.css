@@ -27,6 +27,7 @@ nav>div:nth-child(2)>i {
     margin-top: 16px;
 }
 
+nav>div:nth-child(2),
 nav>div:nth-child(1) {
     width: 100px;
     display: flex;
@@ -34,81 +35,107 @@ nav>div:nth-child(1) {
 
 }
 
-nav>div:nth-child(2) {
-    width: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
 .gooImg>img {
     margin: 0 auto;
     display: block;
 }
-.input{
+
+.input {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.input > div{
+
+.input>div {
     border: 1px solid grey;
     padding: 10px;
     border-radius: 35px;
 }
-.input > div > i ,input{
+
+.input>div>i,
+input {
     padding: 3px;
+    border: none;
 
 }
-.input>div>input{
-    width: 350px;
+
+.input>div>input {
     border: none;
 }
-.input>div>i{
+
+.input>div>i {
     color: grey;
 }
-.buttons{
-display: flex;
-justify-content: center;
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
-.buttons>button{
-        padding: 8px;
-        border: none;
-        margin-left: 10px;
-        margin-bottom: 10px;
+
+.buttons>button {
+    padding: 8px 16px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
-.input:hover{
-    text-shadow: 2px 2px black;
+
+.input:hover {
+    /* text-shadow: 1px 1px grey; */
+    cursor: pointer;
 }
-body > p{
+
+body>p {
     text-align: center;
-    
+
 }
-footer{
+
+footer {
     position: fixed;
     bottom: 0;
     display: flex;
-        min-width: 100%;
-        flex-direction: column;
-        background-color: #F2F2F2;
+    min-width: 100%;
+    flex-direction: column;
+    background-color: #F2F2F2;
 }
-footer>div:nth-child(2){
+
+footer>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
 }
-footer>div:nth-child(1){
+
+footer>div:nth-child(1) {
     padding: 15px;
     border-bottom: 1px solid #DADCE0;
 }
-footer > div:nth-child(2) > div:nth-child(1){
+
+footer>div:nth-child(2)>ul:nth-child(2),
+footer>div:nth-child(2)>ul:nth-child(1) {
     display: flex;
 
 }
-li{
+
+li {
     list-style: none;
     padding: 5px;
 }
-footer>div:nth-child(2)>div:nth-child(2) {
-    display: flex;
 
+input {
+    width: 460px;
+}
+
+i {
+    padding: 0px 7px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p>a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 15px;
 }
