@@ -7,9 +7,10 @@ body {
 }
 
 nav>div:nth-child(2)>img {
-    width: 30px;
+    width: 44px;
     border-radius: 50%;
     display: inline-block;
+    height: 44px;
 }
 
 nav {
